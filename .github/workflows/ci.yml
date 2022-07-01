@@ -12,6 +12,6 @@ jobs:
         with:
           image: rishaw00/node-js-sample
           tags: v1, latest
-          registry: https://registry-url.io/v2/
+          registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
